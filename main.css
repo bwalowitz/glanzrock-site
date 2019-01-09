@@ -46,6 +46,11 @@ header img {
     height: 100vh;
 }
 
+/* .news {
+    height:max-content;
+    background-image: none;
+} */
+
 .about-hero {
     /* margin-top: -20px; */
     
@@ -108,10 +113,7 @@ nav a {
     height: 50vh;
 }
 
-footer {
-    background-color: black;
-    height: 200px;
-}
+
 
 /* .flex {
     height: 100%;
@@ -330,4 +332,48 @@ footer {
     text-align: right;
     padding: 2rem 2rem;
     color: white;
+    background-color: black;
+    height: 200px;
+}
+
+
+/* news */
+
+.news-date {
+    font-style: italic;
+}
+
+.news-source {
+    font-weight: bold;
+}
+.news-text {
+    font-size: 1rem;
+    flex: 2;
+}
+
+.news-image {
+    flex: 1;
+    margin-right: 1rem;
+}
+
+@media(max-width:700px) {
+    .news-image {
+        flex: 1;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+
+   =
+}
+
+.news-text a {
+    text-decoration: none;
+}
+
+.news-flex {
+    margin-top: 2rem;
+}
+
+.project .news-title {
+    font-size: 1.4em;
 }
