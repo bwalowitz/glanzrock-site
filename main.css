@@ -427,3 +427,8 @@ footer {
 .person-meta {
     margin-bottom: 1em;
 }
+
+/* news page placeholder */
+.project h1 {
+    font-size: 3em;
+}
