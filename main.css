@@ -390,6 +390,9 @@ footer {
     display: flex;
     padding: 3rem 2rem;
     background-color: black;
+    background-image: url(img/Nebula_00326-opacity.png);
+    background-size: cover;
+    background-position: center;
     color: white;
 }
 
