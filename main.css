@@ -569,8 +569,8 @@ textarea {
     text-align: center;
     margin-top: 100px;
     opacity: 0;
-    animation: fadein 1s ease;
-    animation-delay: 500ms;
+    animation: fadein 2s ease;
+    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 
