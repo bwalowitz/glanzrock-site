@@ -398,10 +398,10 @@ footer {
     color: white;
 }
 
-.logo-text {
+/* .logo-text {
     width: 50%;
     margin-right: 3em;
-}
+} */
 
 .logo-text h2 {
     font-size:1.6em;
@@ -443,6 +443,7 @@ footer {
     font-size: 3em;
 }
 
+/* About Page Team Styles */
 
 .team-text img {
     float: right;
@@ -471,4 +472,36 @@ footer {
 .team-text .name {
     line-height: 1.2;
 }
+
+
+/* About Page Logo Styles */
+
+.logo-text img {
+    float: right;
+    width: 350px;
+    padding-left: 2em;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 650px) {
+    .team-text img {
+        width: 200px;
+    }
+  }
+
+.logo-text p {
+    line-height: 1.3;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.logo-text .title {
+    margin-bottom: 1em;
+    line-height: 1.2;
+}
+
+.team-text .name {
+    line-height: 1.2;
+}
+
 
