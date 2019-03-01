@@ -68,7 +68,7 @@ header img {
 
 .container img {
     margin-top: -50px;
-    height: 98vh;
+    height: 100vh;
     object-fit: cover;
     object-position: center;
     margin-bottom: -40px;
@@ -160,20 +160,19 @@ nav a {
 
 
 
-/* .flex {
+.flex {
     height: 100%;
     display: flex;
     align-items: flex-end;
     justify-items: flex-start;
-} */
+}
 
 .hero {
     position: absolute;
     bottom: 50px;
     color: white;
-    max-width: 700px;
+    max-width: 1200px;
     line-height: 1.3;
-    font-size: 1.2em;
     padding-left: 2rem;
     padding-right: 2rem;
     /* margin: 30vh 50vw 0 auto; */
@@ -181,32 +180,44 @@ nav a {
 
 .about-box {
     position: absolute;
-    bottom: 50px;
+    bottom: 35px;
     color: black;
-    max-width: 900px;
+    max-width: 800px;
     padding-left: 2em;
-    padding-right: 2em;
+    padding-right: 1.5em;
+    padding-bottom: 2em;
+    padding-top: 1.5em;
     /* margin: 30vh 50vw 0 auto; */
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 20px 10px rgba(255,255,255,0.8);
+}
 
-    font-size: .8em;
+@media(max-width:830px) {
+    .about-box {
+        max-width: 700px;
+    }
+    }
+
+
+.about-text {
     column-count: 2;
-    column-width: 250px;
-    column-gap: 3em;
+    column-width: 100px;
+    column-gap: 2em;
     column-rule: solid 1px black;
+}
 
-    background-color: rgba(255,255,255,0.6);
-    padding: 2em;
-    box-shadow: 0 0 20px 10px rgba(255,255,255,0.6);
+@media(max-width:590px) {
+.about-text {
+    column-count: 1;
+    column-width: 100px;
+    column-gap: 2em;
+    column-rule: solid 1px black;
+}
 }
 
 
-
-
-
-
-
 .about-heading h2 {
-    font-size: 1.6em;
+    font-size: 1.2em;
     line-height: 1.2;
     padding-bottom: 1.6em;
     font-weight: bold;
@@ -215,7 +226,21 @@ nav a {
 
 .about-text p {
     margin-bottom: 20px;
+    color: black;
+    font-size: .9em;
+    line-height: 1.3;
+    
 }
+
+
+
+
+
+
+
+
+
+
 
 
 .hero h2 {
@@ -349,12 +374,12 @@ nav a {
     padding: 2rem 2rem;
     height: max-content;
 }
-
+/* 
 .project h2 {
     font-size: 1.6em;
     line-height: 1.3;
     margin-bottom: 1em;
-}
+} */
 
 .project-text {
     font-size: 1rem;
@@ -404,7 +429,7 @@ footer {
     padding: 2rem 2rem;
     color: white;
     background-color: black;
-    height: 150px;
+    /* height: 150px; */
 }
 
 
@@ -617,18 +642,16 @@ textarea {
   display: none;
 }
 
-.content {
-    
-    /* height: 80vh; */
-}
 
 .contact h2 {
     text-align: center;
     margin-top: 50px;
     font-size: 2.4em;
+    padding-bottom: 50px;
 }
 
 .contact .thanks-animation {
+    color: black;
     text-align: center;
     opacity: 0;
     animation: fadein 1s ease;
@@ -682,18 +705,54 @@ textarea {
 .project {
     background-color: black;
 }
+
+.project.contact {
+    background-color: white;
+}
+
 .hero-2 {
     max-width: 900px;
     padding: 0 4em;
-    margin: 0 auto;
+    margin: 0 auto 100px auto;
     background-color: black;
     color: white;
     transform: translateY(-50px);
+    opacity: .9;
 
 }
+
+@media screen and (max-width: 500px) {
+.hero-2 h2 {
+    transform: rotate(-2deg);
+    font-size: 2em;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: .8em;
+}
+
+.hero-2 {
+    max-width: 900px;
+    padding: 0 2em;
+    margin: 30px auto 40px auto;
+    background-color: black;
+    color: white;
+    transform: translateY(-50px);
+    opacity: .9;
+
+}
+}
+
+
+
+
 
 
 .black-back {
     background-color: black;
     margin-right: 100px;
 }
+
+
+
+
+
