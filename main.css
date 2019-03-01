@@ -71,6 +71,7 @@ header img {
     height: 98vh;
     object-fit: cover;
     object-position: center;
+    margin-bottom: -40px;
 }
 
 @media(max-width: 600px) {
@@ -664,10 +665,10 @@ textarea {
 
 .hero-2 h2 {
     transform: rotate(-2deg);
-    font-size: 3em;
-    font-weight: bolder;
-    line-height: 1.1;
-    margin-bottom: 1em;
+    font-size: 2.6em;
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: .8em;
 }
 
 .hero-2 p {
@@ -677,3 +678,22 @@ textarea {
     margin-bottom: 1em;
 }
 
+
+.project {
+    background-color: black;
+}
+.hero-2 {
+    max-width: 900px;
+    padding: 0 4em;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    transform: translateY(-50px);
+
+}
+
+
+.black-back {
+    background-color: black;
+    margin-right: 100px;
+}
