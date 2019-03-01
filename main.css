@@ -374,12 +374,13 @@ nav a {
     padding: 2rem 2rem;
     height: max-content;
 }
-/* 
-.project h2 {
-    font-size: 1.6em;
+
+.project-text h2 {
+    font-size: 2.2em;
+    font-weight: 600;
     line-height: 1.3;
-    margin-bottom: 1em;
-} */
+    margin-bottom: .5em;
+}
 
 .project-text {
     font-size: 1rem;
@@ -702,7 +703,7 @@ textarea {
 }
 
 
-.project {
+.project.home {
     background-color: black;
 }
 
