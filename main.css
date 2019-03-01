@@ -560,3 +560,17 @@ textarea {
     height: 80vh;
 }
 
+.contact h2 {
+    text-align: center;
+    margin-top: 200px;
+    opacity: 0;
+    animation: fadein 1s ease;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
