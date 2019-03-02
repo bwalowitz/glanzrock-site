@@ -71,7 +71,7 @@ header img {
     height: 100vh;
     object-fit: cover;
     object-position: center; 
-    margin-bottom: -40px;
+    /* margin-bottom: -40px; */
 }
 
 @media(max-width: 600px) {
@@ -690,18 +690,20 @@ textarea {
 
 
 .hero-2 h2 {
-    transform: rotate(-2deg);
+    /* transform: rotate(-2deg); */
     font-size: 2.6em;
     font-weight: 600;
     line-height: 1.2;
     margin-bottom: .8em;
+    opacity: .8;
 }
 
 .hero-2 p {
-    transform: rotate(-2deg);
+    /* transform: rotate(-2deg); */
     font-size: 1.3em;
     line-height: 1.4;
     margin-bottom: 1em;
+    opacity: .8;
 }
 
 
@@ -719,14 +721,14 @@ textarea {
     margin: 50px auto 50px auto;
     background-color: black;
     color: white;
-    /* transform: translateY(-50px); */
-    opacity: .9;
+    transform: translateY(-120px);
+    
 
 }
 
 @media screen and (max-width: 500px) {
 .hero-2 h2 {
-    transform: rotate(-2deg);
+    /* transform: rotate(-2deg); */
     font-size: 2em;
     font-weight: 600;
     line-height: 1.2;
@@ -739,7 +741,7 @@ textarea {
     margin: 40px auto 40px auto;
     background-color: black;
     color: white;
-    /* transform: translateY(-50px); */
+    transform: translateY(-120px);
     opacity: .9;
 
 }
@@ -757,7 +759,7 @@ textarea {
 
 
 .home-logo img {
-    object-fit: contain;
+    object-fit: cover;
 }
 
 
@@ -766,3 +768,32 @@ textarea {
     background-size: fill;
     background-position: center;
 }
+
+.hero-2 .learnabout {
+    margin-left: auto;
+    margin-top: 1.4em;
+    display: block;
+    font-size: 1.6em;
+    width: max-content;
+    color: #AC2528;
+    padding: 5px 10px;
+    border: 2.3px solid #AC2528;
+    /* box-shadow: 2px 2px 2px; */
+    opacity: 1;
+}
+
+
+.hero-2 .learnabout:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+    .hero-2 .learnabout {
+    margin-left: 0;
+    }
